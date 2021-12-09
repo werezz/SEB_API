@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEB_API", "SEB_API\SEB_API.csproj", "{964DF07C-7891-48CA-8E6F-F5EDAB97322A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEB_API.Tests", "SEB_API.Tests\SEB_API.Tests.csproj", "{32E1E5FB-DB7B-4620-B605-D54DDC13BC88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{964DF07C-7891-48CA-8E6F-F5EDAB97322A} = {964DF07C-7891-48CA-8E6F-F5EDAB97322A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{964DF07C-7891-48CA-8E6F-F5EDAB97322A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964DF07C-7891-48CA-8E6F-F5EDAB97322A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964DF07C-7891-48CA-8E6F-F5EDAB97322A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964DF07C-7891-48CA-8E6F-F5EDAB97322A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E1E5FB-DB7B-4620-B605-D54DDC13BC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E1E5FB-DB7B-4620-B605-D54DDC13BC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E1E5FB-DB7B-4620-B605-D54DDC13BC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E1E5FB-DB7B-4620-B605-D54DDC13BC88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {981ADB55-01C3-4CAE-A995-310AE775273D}
+	EndGlobalSection
+EndGlobal
